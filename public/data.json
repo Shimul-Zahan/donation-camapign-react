@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/nbRwWVL/Rectangle-4287-1.png",
+        "title": "Scholarship Fund",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "Support students in need by contributing to our scholarship fund. Help create a brighter future for young learners.",
+        "price": 100.0
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/5rZ5QQB/Health.png",
+        "title": "Medical Aid",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Provide essential medical aid and healthcare services to those in need. Make a difference in someone's health journey.",
+        "price": 50.0
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/XjTHSdQ/Rectangle-4287-2.png",
+        "title": "Food Relief",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "Contribute to our food relief initiative and help provide meals to the hungry and underserved communities.",
+        "price": 75.0
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/g4LZGV4/Clothing.png",
+        "title": "Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Support our clothing drive to provide apparel to those in need. Help keep individuals warm and clothed.",
+        "price": 120.0
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/nbRwWVL/Rectangle-4287-1.png",
+        "title": "Educational Supplies",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "Contribute to our initiative providing educational supplies to underprivileged students. Empower their learning journey.",
+        "price": 25.0
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/5rZ5QQB/Health.png",
+        "title": "Health Education",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Support health education programs to raise awareness and educate communities about maintaining good health.",
+        "price": 35.0
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/XjTHSdQ/Rectangle-4287-2.png",
+        "title": "Meal Sponsorship",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "Sponsor meals for those in need through our meal sponsorship program. Help combat hunger and malnutrition.",
+        "price": 90.0
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/g4LZGV4/Clothing.png",
+        "title": "Clothing for Needy",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "##79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Donate clothing items for the needy and less fortunate. Make a positive impact on their lives and well-being.",
+        "price": 200.0
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/nbRwWVL/Rectangle-4287-1.png",
+        "title": "Educational Support",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "##ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "Provide educational support and resources to disadvantaged students, helping them achieve their academic goals.",
+        "price": 150.0
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/5rZ5QQB/Health.png",
+        "title": "Medical Outreach",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Support medical outreach programs that provide healthcare services to underserved communities and individuals.",
+        "price": 80.0
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/XjTHSdQ/Rectangle-4287-2.png",
+        "title": "Food for Families",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "Help provide food and sustenance to struggling families in need. Contribute to their nourishment and well-being.",
+        "price": 170.0
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/g4LZGV4/Clothing.png",
+        "title": "Warmth for Winter",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Donate warm clothing to help people stay comfortable during the winter months. Spread warmth and kindness.",
+        "price": 40.0
+    }
+]
