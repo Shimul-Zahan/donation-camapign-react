@@ -21,7 +21,7 @@ const Donations = () => {
           donations.slice(0, initial).map(donation => <Donation donation={donation} />)
         }
       </div>
-      <div className='text-center mt-5'>
+      <div className={'text-center mt-10 block'}>
         <div className={donations.length == initial && 'hidden'}>
           <button onClick={() => setInitial(donations.length)} className='btn btn-success'>Show all</button>
         </div>

@@ -10,6 +10,7 @@ const searchItemInLCS = () => {
 
 const saveToLocalStorage = donation => {
     const donationList = searchItemInLCS();
+    const exist = donationList.filter(donate => donate.id == donation.id)
     donationList.push(donation);
     localStorage.setItem('donation', JSON.stringify(donationList));
 }
