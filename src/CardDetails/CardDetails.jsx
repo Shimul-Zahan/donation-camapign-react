@@ -1,6 +1,8 @@
 import React from 'react'
 import { useLoaderData, useParams } from 'react-router-dom'
 import { saveToLocalStorage } from '../Utils/LocalStorage';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CardDetails = () => {
 
@@ -11,6 +13,11 @@ const CardDetails = () => {
     
     const donation = () => {
         saveToLocalStorage(detailsShowItem);
+        toast(`Donate ${detailsShowItem.price}$ SuccessFull` , {
+            position: "top-right",
+            autoClose: 5000,
+            theme: "light",
+        });
     }
 
   return (
@@ -25,6 +32,7 @@ const CardDetails = () => {
               <h1 className='text-4xl text-black font-bold'>{detailsShowItem.title}</h1>
               <p className='text-lg text-black font-medium'>{detailsShowItem.description }</p>
           </div>
+          <ToastContainer />
       </div>
   )
 }

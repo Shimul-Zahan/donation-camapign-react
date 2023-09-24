@@ -82,7 +82,7 @@
         "title": "Clothing for Needy",
         "category": "Clothing",
         "category_bg": "#79c23f33",
-        "card_bg": "##79c23f26",
+        "card_bg": "#79c23f26",
         "text_button_bg": "#79C23F",
         "description": "Donate clothing items for the needy and less fortunate. Make a positive impact on their lives and well-being.",
         "price": 200.0
@@ -93,7 +93,7 @@
         "title": "Educational Support",
         "category": "Education",
         "category_bg": "#ff444a33",
-        "card_bg": "##ff444a26",
+        "card_bg": "#ff444a26",
         "text_button_bg": "#FF444A",
         "description": "Provide educational support and resources to disadvantaged students, helping them achieve their academic goals.",
         "price": 150.0
