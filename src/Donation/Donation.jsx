@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Donation = () => {
+const Donation = ({ donation }) => {
   return (
-    <div className='container mx-auto'>Donation</div>
+    <div>Donation</div>
   )
 }
 
