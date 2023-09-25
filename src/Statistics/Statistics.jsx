@@ -46,22 +46,23 @@ export default function PiChart() {
   ];
 
   return (
-    <div className="container mx-auto">
-      <div className="flex justify-center items-center">
-        <PieChart width={600} height={600}>
+    <div className="container mx-auto lg:h-[700px]">
+      <div className="flex justify-center items-center h-full">
+        <PieChart width={400} height={500}>
           <Pie
             data={data}
-            cx={300}
-            cy={300}
+            cx={200}
+            cy={250}
             labelLine={false}
             label={renderCustomizedLabel}
             dataKey="value"
+            outerRadius={180}
           >
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
-          <Legend className="text-2xl"/>
+          <Legend />
         </PieChart>
       </div>
     </div>

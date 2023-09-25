@@ -7,7 +7,7 @@ const Card = ({ card }) => {
 
     return (
         <Link to={`card/${id}`}>
-            <div className="card card-compact w-96 space-y-4 pb-5" style={{ background: `${card_bg}` }}>
+            <div className="card card-compact w-80 space-y-4 pb-5" style={{ background: `${card_bg}` }}>
                 <figure>
                     <img src={image} alt="image" className='h-[250px] w-full' />
                 </figure>

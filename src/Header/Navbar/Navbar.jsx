@@ -5,7 +5,7 @@ import './Navbae.css'
 const Navbar = () => {
     return (
         <div className='bg-cover bg-blend-overlay bg-white' style={{ backgroundImage: 'url("/public/Resources/Rectangle 4288.png")' }}>
-            <div className='container mx-auto py-6'>
+            <div className='container mx-auto py-6 md:px-2'>
                 <div className="flex justify-center items-center flex-col gap-5 md:flex-row md:justify-between md:px-2">
                     <div className="">
                         <img src="/Resources/Logo.png" alt="" />
