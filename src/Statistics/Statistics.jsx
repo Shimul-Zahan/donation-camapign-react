@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { PieChart, Pie, Cell, Legend, Radar } from "recharts";
+import { PieChart, Pie, Cell, Legend, Label } from "recharts";
 import { searchItemInLCS } from "../Utils/LocalStorage";
 
 const COLORS = ["#FF444A", "#00C49F"];
@@ -13,7 +13,7 @@ const renderCustomizedLabel = ({
   outerRadius,
   percent,
   Legend,
-  Radar,
+  
 }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
@@ -22,6 +22,10 @@ const renderCustomizedLabel = ({
     <text
       x={x}
       y={y}
+      style={{
+        fontSize: '22px',
+        fill: '#ffffff',
+      }}
     >
       {`${(percent * 100).toFixed(0)}%`}
     </text>
@@ -57,10 +61,7 @@ export default function PiChart() {
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
-
-          <Legend>
-
-          </Legend>
+          <Legend className="text-2xl"/>
         </PieChart>
       </div>
     </div>
