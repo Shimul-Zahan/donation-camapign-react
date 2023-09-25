@@ -32,16 +32,16 @@ const renderCustomizedLabel = ({
   );
 };
 export default function PiChart() {
-
   const [donationNumber, setDonationNumber] = useState([]);
-
   useEffect(() => {
     const donation = searchItemInLCS();
     setDonationNumber(donation.length);
   }, [])
+  
+  console.log(donationNumber);
 
   const data = [
-    { name: "Total", value: 12 },
+    { name: "Total", value: (12-donationNumber) },
     { name: "Donation", value: donationNumber },
   ];
 
