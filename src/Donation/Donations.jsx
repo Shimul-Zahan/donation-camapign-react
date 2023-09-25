@@ -23,7 +23,9 @@ const Donations = () => {
       </div>
       <div className={'text-center mt-10 block'}>
         <div className={donations.length == initial && 'hidden'}>
-          <button onClick={() => setInitial(donations.length)} className='btn btn-success'>Show all</button>
+          {
+            donations.length >= 4 && <button onClick={() => setInitial(donations.length)} className='btn btn-success'>Show all</button>
+          }
         </div>
       </div>
 

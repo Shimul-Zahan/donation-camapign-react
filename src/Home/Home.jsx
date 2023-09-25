@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div>
       <Banner searchInput={searchInput} searchvalue={searchvalue} />
-      <div className='container mx-auto mt-20 mb-10 p-2'>
+      <div className='container mx-auto mt-28 mb-10 p-2'>
         <div className='flex justify-around items-center'>
           <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 md:gap-10 lg:gap-20'>
             {
