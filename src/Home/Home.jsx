@@ -27,7 +27,7 @@ const Home = () => {
   }
   const searchvalue = () => {
     // console.log(inputValue);
-    const search = showData.filter(data => data.category == inputValue);
+    const search = showData.filter(data => data.category.toLowerCase() == inputValue.toLowerCase());
     setShowItems(search);
     // console.log(search)
   }

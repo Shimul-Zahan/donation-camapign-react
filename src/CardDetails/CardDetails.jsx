@@ -13,7 +13,7 @@ const CardDetails = () => {
     
     const donation = () => {
         saveToLocalStorage(detailsShowItem);
-        toast(`Donate ${detailsShowItem.price}$ SuccessFull` , {
+        toast(`Donate ${detailsShowItem.price}$ SuccessFull`, {
             position: "top-right",
             autoClose: 5000,
             theme: "light",
