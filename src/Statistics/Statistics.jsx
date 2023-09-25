@@ -41,8 +41,8 @@ export default function PiChart() {
   console.log(donationNumber);
 
   const data = [
-    { name: "Total", value: (12 - donationNumber) },
-    { name: "Donation", value: donationNumber },
+    { name: "Total Donation", value: (12 - donationNumber) },
+    { name: "Your Donation", value: donationNumber },
   ];
 
   return (
