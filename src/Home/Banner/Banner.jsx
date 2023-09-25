@@ -1,10 +1,9 @@
 import React from 'react'
-// import Navbar from '../Navbar/Navbar'
 
 const Banner = ({ searchInput, searchvalue }) => {
 
   return (
-    <div className='h-full bg-cover bg-blend-overlay bg-white bg-opacity-95' style={{ backgroundImage: 'url("/public/Resources/Rectangle 4288.png")' }}>
+    <div className='h-full bg-cover bg-blend-overlay bg-white bg-opacity-95' style={{ backgroundImage: 'url("/Resources/Rectangle 4288.png")' }}>
       <div className='flex justify-center items-center flex-col h-[400px] md:h-[600px] space-y-10'>
         <p className='text-black text-center text-2xl md:text-5xl font-black'>I Grow By Helping People In Need</p>
         <div className='flex input input-bordered w-[286px] max-w-xs justify-between items-center'>

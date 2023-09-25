@@ -7,12 +7,12 @@ const Card = ({ card }) => {
 
     return (
         <Link to={`card/${id}`}>
-            <div className="card card-compact w-80 space-y-4 pb-5" style={{ background: `${card_bg}` }}>
+            <div className="card card-compact w-80 space-y-4 " style={{ background: `${card_bg}` }}>
                 <figure>
                     <img src={image} alt="image" className='h-[250px] w-full' />
                 </figure>
                 <div className="card-body">
-                    <p className='btn w-[35%]' style={{ background: `${category_bg}` }}>{category}</p>
+                    <p className='w-[100px] text-lg font-medium rounded-lg py-1 text-center' style={{ background: `${category_bg}`, color: `${text_button_bg}` }}>{category}</p>
                     <h1 className="text-xl font-bold" style={{ color: `${text_button_bg}` }}>{title}</h1>
                 </div>
             </div>
