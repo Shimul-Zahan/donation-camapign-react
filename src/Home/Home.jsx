@@ -19,7 +19,7 @@ const Home = () => {
 
   // console.log(showItems);
 
-  const [inputValue, setInputValue] = useState();
+  const [inputValue, setInputValue] = useState('');
 
 
   const searchInput = inputText => {
