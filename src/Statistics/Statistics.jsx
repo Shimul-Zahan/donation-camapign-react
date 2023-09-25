@@ -47,7 +47,7 @@ export default function PiChart() {
 
   return (
     <div className="container mx-auto lg:h-[700px]">
-      <div className="flex justify-center items-center h-full">
+      <div className="flex justify-center flex-col items-center h-full">
         <PieChart width={400} height={500}>
           <Pie
             data={data}
@@ -62,8 +62,17 @@ export default function PiChart() {
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
-          <Legend />
         </PieChart>
+        <div className="flex justify-center items-center gap-10">
+          <div className="flex justify-center items-center gap-2">
+            <h1 className="text-lg">Your Donation</h1>
+            <p className="bg-[#00C49F] h-3 w-20 rounded-sm"></p>
+          </div>
+          <div className="flex justify-center items-center gap-2">
+            <h1 className="text-lg">Total Donation</h1>
+            <p className="bg-[#FF444A] h-3 w-20 rounded-sm"></p>
+          </div>
+        </div>
       </div>
     </div>
   );

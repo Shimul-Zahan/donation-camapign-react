@@ -25,7 +25,7 @@ const CardDetails = () => {
           <div className='relative'>
               <img src={detailsShowItem.image} alt="" className='w-full md:h-[500px] lg:h-[755px] rounded-[20px]'/>
               <div className='md:bg-[#0b0b0b7f] lg:bg-[#0b0b0b7f] p-6 absolute md:w-[744px] lg:w-[1537px] rounded-br-[20px] rounded-bl-[20px] bottom-0'>
-                  <button onClick={donation} className='btn text-base font-semibold capitalize text-white' style={{ background: `${detailsShowItem.text_button_bg}` }}>Donate ${ detailsShowItem.price }</button>
+                  <button onClick={donation} className='btn text-xl font-medium capitalize text-white' style={{ background: `${detailsShowItem.text_button_bg}` }}>Donate ${ detailsShowItem.price }</button>
               </div>
           </div>
           <div className='mt-10 mb-10 space-y-8'>

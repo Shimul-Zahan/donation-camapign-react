@@ -8,7 +8,7 @@ const Donation = ({ donation }) => {
         <p className='w-[100px] text-lg font-medium rounded-lg py-1 text-center' style={{ background: `${donation.category_bg}`, color: `${donation.text_button_bg}` }}>{donation.category}</p>
         <h1 className="text-xl font-bold text-black">{ donation.title }</h1>
         <h1 className="text-xl font-bold text-black" style={{ color: `${donation.text_button_bg}` }}>${ donation.price }.00</h1>
-        <button className='btn text-white text-xl capitalize' style={{ background: `${donation.text_button_bg}` }}>View Details</button>
+        <button className='btn text-white text-lg font-semibold capitalize' style={{ background: `${donation.text_button_bg}` }}>View Details</button>
       </div>
     </div>
   )
