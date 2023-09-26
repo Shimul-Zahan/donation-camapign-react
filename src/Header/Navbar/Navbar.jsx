@@ -4,19 +4,37 @@ import './Navbae.css'
 
 const Navbar = () => {
     return (
-        <div className='bg-cover bg-blend-overlay bg-white' style={{ backgroundImage: 'url("/public/Resources/Rectangle 4288.png")' }}>
-            <div className='container mx-auto py-6 md:px-2'>
-                <div className="flex justify-center items-center flex-col gap-5 md:flex-row md:justify-between md:px-2">
+        <div className='container mx-auto md:py-4'>
+            <div className="navbar">
+                <div className="flex-1">
                     <div className="">
-                        <img src="/Resources/Logo.png" alt="" />
+                        <img src="/Resources/Logo.png" alt="" className='h-10 md:h-16 lg:h-full' />
                     </div>
-                    <div className="text-center">
-                        <ul className="flex flex-col justify-center items-center gap-5 md:flex-row text-black text-xl space-x-8 text-center">
-                            <NavLink to='/' >Home</NavLink>
-                            <NavLink to='donation' >Donation</NavLink>
-                            <NavLink to='/statistics' >Statistics</NavLink>
-                        </ul>
-                    </div>
+                </div>
+                <div className="flex-none">
+                    <ul className="menu menu-horizontal px-1">
+                        <div className='hidden md:block'>
+                            <div className='flex justify-center gap-10 items-center text-xl'>
+                                <NavLink to='/' >Home</NavLink>
+                                <NavLink to='donation' >Donation</NavLink>
+                                <NavLink to='/statistics' >Statistics</NavLink>
+                            </div>
+                        </div>
+                        <div className='md:hidden text-xl'>
+                            <li>
+                                <details>
+                                    <summary>
+                                        Menubar
+                                    </summary>
+                                    <ul className="p-2 pt-2 absolute flex flex-col space-y-3">
+                                        <NavLink to='/'>Home</NavLink>
+                                        <NavLink to='donation' >Donation</NavLink>
+                                        <NavLink to='/statistics' >Statistics</NavLink>
+                                    </ul>
+                                </details>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </div>

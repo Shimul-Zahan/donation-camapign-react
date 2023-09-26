@@ -46,7 +46,7 @@ export default function PiChart() {
   ];
 
   return (
-    <div className="container mx-auto lg:h-[700px]">
+    <div className="container mx-auto lg:h-[700px] mb-8">
       <div className="flex justify-center flex-col items-center h-full">
         <PieChart width={400} height={500}>
           <Pie
@@ -64,11 +64,11 @@ export default function PiChart() {
           </Pie>
         </PieChart>
         <div className="flex justify-center items-center gap-10">
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-2">
             <h1 className="text-lg">Your Donation</h1>
             <p className="bg-[#00C49F] h-3 w-20 rounded-sm"></p>
           </div>
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-2">
             <h1 className="text-lg">Total Donation</h1>
             <p className="bg-[#FF444A] h-3 w-20 rounded-sm"></p>
           </div>
