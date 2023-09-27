@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Banner from './Banner/Banner'
 import Card from './Card';
-import { data } from 'autoprefixer';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
 
@@ -17,8 +19,6 @@ const Home = () => {
       })
   }, [])
 
-  // console.log(showItems);
-
   const [inputValue, setInputValue] = useState('');
 
 
@@ -26,10 +26,18 @@ const Home = () => {
     setInputValue(inputText);
   }
   const searchvalue = () => {
-    // console.log(inputValue);
-    const search = showData.filter(data => data.category.toLowerCase() == inputValue.toLowerCase());
-    setShowItems(search);
-    // console.log(search)
+    if (inputValue != '') {
+      const search = showData.filter(data => data.category.toLowerCase() == inputValue.toLowerCase());
+      if (search.length != 0) {
+        setShowItems(search);
+      } else {
+        toast(`No items found!!!`, {
+          position: "top-right",
+          autoClose: 5000,
+          theme: "light",
+        });
+      }
+    }
   }
 
 
@@ -45,9 +53,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   )
 }
-// searchInput = { searchInput }
+
 
 export default Home
